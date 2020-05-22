@@ -11,15 +11,18 @@
 </head>
 
 <body>
+    <div id="app">
+        <carousel> 
 
-    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
-        <img src="https://placeimg.com/640/480/any">
-        <img src="https://placeimg.com/640/480/any?2">
-        <img src="https://placeimg.com/640/480/any?3">
-        <img src="https://placeimg.com/640/480/any?4">
-        <img src="https://placeimg.com/640/480/any?5">
+
+            <img src="https://placeimg.com/640/480/any">
+            <img src="https://placeimg.com/640/480/any?2">
+            <img src="https://placeimg.com/640/480/any?3">
+            <img src="https://placeimg.com/640/480/any?4">
+            <img src="https://placeimg.com/640/480/any?5">
+        </carousel>
     </div>
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="/js/app.js"></script>
 
 </body>
 
