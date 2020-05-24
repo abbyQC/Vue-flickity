@@ -12,7 +12,7 @@
 
 <body>
     <div id="app">
-        <carousel> 
+        <carousel>  
             <img src="https://placeimg.com/640/480/any">
             <img src="https://placeimg.com/640/480/any?2">
             <img src="https://placeimg.com/640/480/any?3">
@@ -22,7 +22,7 @@
 
         <h2>Another One</h2>
 
-        <carousel>
+        <carousel :autoplay="true">
             <img src="https://placeimg.com/640/480/any">
             <img src="https://placeimg.com/640/480/any?2">
             <img src="https://placeimg.com/640/480/any?3">

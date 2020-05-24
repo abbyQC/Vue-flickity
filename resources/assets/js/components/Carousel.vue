@@ -11,12 +11,12 @@ import 'flickity/dist/flickity.min.css';
 export default {
   props:{
     wrapAround: {default:true},
-    autoPlay: {default:false}
+    autoplay: {default:false}
   },
   mounted() {
     new Flickity(this.$el,{
       wrapAround: this.wrapAround,
-      autoPlay: this.autoPlay,
+      autoPlay: this.autoplay,
       cellAlign: 'left',
       contain :true
     });

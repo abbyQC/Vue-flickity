@@ -1926,14 +1926,14 @@ __webpack_require__.r(__webpack_exports__);
     wrapAround: {
       "default": true
     },
-    autoPlay: {
+    autoplay: {
       "default": false
     }
   },
   mounted: function mounted() {
     new flickity__WEBPACK_IMPORTED_MODULE_0___default.a(this.$el, {
       wrapAround: this.wrapAround,
-      autoPlay: this.autoPlay,
+      autoPlay: this.autoplay,
       cellAlign: 'left',
       contain: true
     });
